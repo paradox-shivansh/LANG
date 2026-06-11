@@ -9,3 +9,32 @@ Locking dependency versions
 Managing Python versions
 Running Python scripts and projects
 
+<!-- ADK -->
+AI Studio
+    ↓
+Test prompts
+    ↓
+Generate Python code
+    ↓
+Build agent with ADK/LangGraph
+    ↓
+Deploy on Vertex AI or your server
+
+##ASGI
+Browser
+   ↓
+Uvicorn
+   ↓
+ASGI
+   ↓
+FastAPI
+
+ASGI supports:
+
+async/await
+WebSockets
+Long-lived connections
+High concurrency
+
+## Streaming
+Streaming is when you send response in small chunks instead of all at once.
