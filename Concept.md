@@ -38,3 +38,9 @@ High concurrency
 
 ## Streaming
 Streaming is when you send response in small chunks instead of all at once.
+
+
+## DEEP AGENTS
+Deep agents in LangChain — here's a full breakdown, with a visual architecture to anchor it.
+
+What are deep agents in LangChain? The term "deep agents" typically refers to LangChain agents that operate with extended reasoning loops — using long chains of tool calls, memory, and planning steps to solve complex, multi-step tasks rather than responding in a single shot. They're "deep" in the sense that they traverse many reasoning and action steps before arriving at a final answer.
