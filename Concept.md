@@ -48,3 +48,12 @@ What are deep agents in LangChain? The term "deep agents" typically refers to La
 ![alt text](image.png)
 
 ![alt text](image-1.png)
+
+| Method      | Input                     | Output          |
+| ----------- | ------------------------- | --------------- |
+| `invoke()`  | One prompt                | One response    |
+| `stream()`  | One prompt                | Response chunks |
+| `batch()`   | Many prompts              | Many responses  |
+| `ainvoke()` | One prompt (async)        | One response    |
+| `abatch()`  | Many prompts (async)      | Many responses  |
+| `astream()` | One prompt (async stream) | Response chunks |
