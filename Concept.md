@@ -57,3 +57,11 @@ What are deep agents in LangChain? The term "deep agents" typically refers to La
 | `ainvoke()` | One prompt (async)        | One response    |
 | `abatch()`  | Many prompts (async)      | Many responses  |
 | `astream()` | One prompt (async stream) | Response chunks |
+
+
+# A simple rule:
+
+One input → invoke()
+Many independent inputs → batch()
+Need real-time token output → stream()
+Need concurrency in async apps → abatch() / astream()
