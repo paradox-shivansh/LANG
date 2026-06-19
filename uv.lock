@@ -1832,6 +1832,7 @@ dependencies = [
     { name = "openai" },
     { name = "pydantic" },
     { name = "python-dotenv" },
+    { name = "typing-extensions" },
     { name = "uvicorn" },
 ]
 
@@ -1858,6 +1859,7 @@ requires-dist = [
     { name = "openai", specifier = ">=2.40.0" },
     { name = "pydantic", specifier = ">=2.13.4" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
+    { name = "typing-extensions", specifier = ">=4.15.0" },
     { name = "uvicorn", specifier = ">=0.48.0" },
 ]
 
